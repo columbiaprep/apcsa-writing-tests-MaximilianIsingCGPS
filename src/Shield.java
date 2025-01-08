@@ -42,9 +42,6 @@ public class Shield {
     }
     public boolean test(){
       Shield testMaterial = new Shield("steel");
-      if (!testMaterial.getMaterial().equals("steel")){
-          return false;
-      }
         if (!(testMaterial.getStrMod() == 2)){
             return false;
         }

@@ -10,16 +10,16 @@ public class Gauntlets{
             {0, 0}, // intelligenceModifier
             {0, 0}, // wisdomModifier
             {0, 1}, // constitutionModifier
-            {0 ,0} // charismaModifier
+            {0, 0} // charismaModifier
     };
 
     private static final double[] sellStats = {
-            0.00,9.99
+            0.00,   9.99
     };
 
     private static final String[][] nameData = {
-            {"Bandages", "Iron Gauntlets"}, // equipmentName
-            {"\u001B[36m", "\u001B[35m"} // equipmentColor
+            {"Bandages",    "Iron Gauntlets"}, // equipmentName
+            {"\u001B[36m",  "\u001B[35m"} // equipmentColor
     };
 
     public Gauntlets(int _equipmentID){

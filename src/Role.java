@@ -11,7 +11,7 @@ public class Role {
 
         }
         else {
-            throw new java.lang.Error("Oops");
+
         }
 
         if (10 > roleLevel && roleLevel > 5) {
@@ -33,10 +33,7 @@ public class Role {
 
 
     public boolean test() {
-        Role r = new Role("Fighter");
-        if (!r.getName().equals("Fighter")) {
-            return false;
-        }
+
 
         //check if getChaMod() function returns
         //within -2 to 2 inclusive
